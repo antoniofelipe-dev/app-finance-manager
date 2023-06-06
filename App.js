@@ -32,7 +32,7 @@ export default function App() {
         onChangeText={(text) => setExpense(text)}
         keyboardType="numeric"
       />
-      <Button title="Adicionar" onPress={addExpense} />
+      <Button title="Adicionar Gasto" onPress={addExpense} />
       <View style={styles.buttonsContainer}>
         <Button title="Somar Gastos" onPress={calculateTotal} />
         <Button title="Zerar Gastos" onPress={resetExpenses} />
